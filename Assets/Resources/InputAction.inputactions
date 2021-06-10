@@ -1,0 +1,96 @@
+{
+    "name": "InputAction",
+    "maps": [
+        {
+            "name": "UI",
+            "id": "3a0833ef-01ea-4aae-b92e-6e77f4a2f43f",
+            "actions": [
+                {
+                    "name": "AxisInput",
+                    "type": "Value",
+                    "id": "1a73ba8f-9b6a-4554-b00a-41ff500440b9",
+                    "expectedControlType": "Dpad",
+                    "processors": "AxisDeadzone,NormalizeVector2",
+                    "interactions": "Press"
+                },
+                {
+                    "name": "SubmitInput",
+                    "type": "Button",
+                    "id": "d6a25d92-d7e3-4fd1-b827-099f783a23a2",
+                    "expectedControlType": "Button",
+                    "processors": "NormalizeVector2",
+                    "interactions": "Press"
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "2D Vector",
+                    "id": "0b6e3b43-4413-410d-b84b-152a4c3744d8",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AxisInput",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "c9a45aff-e7c8-4c08-85cb-b53e867c87b9",
+                    "path": "<XInputController>/leftStick/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AxisInput",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "e4ee8198-f379-4531-850a-33ccb3109d2f",
+                    "path": "<XInputController>/leftStick/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AxisInput",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "09696333-623a-4898-a915-cdbbe8e6da9d",
+                    "path": "<XInputController>/leftStick/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AxisInput",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "b7fb53e6-dd45-40fb-9431-4a6b96c42688",
+                    "path": "<XInputController>/leftStick/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AxisInput",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "508bd1a7-4ecf-40a8-844e-c0bedb7ff6df",
+                    "path": "<XInputController>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SubmitInput",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
